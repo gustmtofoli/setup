@@ -9,3 +9,6 @@ install-setup-ubuntu-16.04:
 	sudo apt-get update
 	sudo apt-get install ultra-flat-icons-orange
 	sudo apt-get install shutter
+	sudo add-apt-repository ppa:webupd8team/java
+	sudo apt-get update
+	sudo apt-get install oracle-java8-installer
